@@ -31,7 +31,7 @@ Node is a command line program that is launched from the shell. Its prompt is us
 
 In order to leave the node environment, you need to `ctrl c` twice. To get back into node environment, you simply need to type `node` from the shell.
 
-Node is a JavaScript engine (it's a core software engine) that drives your program 
+Node is a JavaScript engine (it's a core software engine) that drives your program
 
 
 
@@ -44,6 +44,8 @@ When moving around on the terminal you use the `cd` command with the *relative p
 `cd ..` Will move you from your current directory to the containing directory. `..` means "go up one level from my current location."
 
 You can use more complicated relative paths to go through multiple directories
+
+`cntrl l` Will move your cursor to the top of your terminal window
 
 `cd ../../labs/bug-hunts` would take you up two levels (into the location that contains the directory that contains the directory you started in) then it will look for a sub directory named `labs` and a further subdirectory named `bug-hunts` which is where you end up when you hit <kbd>Enter</kbd>.
 
