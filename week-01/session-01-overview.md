@@ -1,9 +1,20 @@
 # Session-01
 
-Today we went through an introduction to programming and learned how to navigate the command line. We wrote our first program, `Hello, World!`
+Today covered:
+
+- Introduction to programming
+- Learned how to navigate the command line
+- Wrote our first program, `Hello, World!`
 
 ## Reading & Homework
 
-Read [Introduction](https://eloquentjavascript.net/00_intro.html) and [Chapter 1](https://eloquentjavascript.net/01_values.html) of Eloquent Javascript.
+Begin reading the following chapters in the open source book, Eloquent JavaScript by Marijn Haverbeke.
 
-Continue working through the **Intro to JS prep-work**
+- [Introduction to JavaScript Ch.0 - EloquentJavaScript](https://eloquentjavascript.net/00_intro.html)
+- [JavaScript Values Ch.1 - EloquentJavaScript](https://eloquentjavascript.net/01_values.html)
+
+## Additional Study Materials
+
+Continue working through the **Intro to JavaScript pre-work**
+
+- <https://online.uprighted.com/>

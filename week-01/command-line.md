@@ -1,4 +1,4 @@
-# Introducing: The Command Line!
+# Introducing: The Command Line
 
 * the **Command Line** is a window into which you can talk directly to your computer
   * aka *console* or *terminal* or *command prompt* or *shell*
@@ -6,18 +6,14 @@
 * a *CLI* (Command Line Interface) is different from the *GUI* (Graphical User Interface) you are used to
   * a CLI is more primitive **and more powerful** than a GUI
 
----
-
-# Directories
+## Directories
 
 * a *directory* is a location on your hard disk
   * also called a *folder*
 * directories can contain *files*
 * directories can also contain other directories (called *subdirectories*)
 
----
-
-# Where am I?
+## Where am I?
 
 * Inside the Terminal, you are always "inside" a directory.
 * It is very easy to get lost in a maze of directories.
@@ -25,9 +21,7 @@
   * This stands for "print working directory" (not "password").
   * Most of the time you can also look at the prompt to see what the current directory is.
 
----
-
-# The Path
+## The Path
 
 The command line is very dependant on the file path. Here are a few key directional commands in the command line:
 
@@ -38,9 +32,7 @@ The command line is very dependant on the file path. Here are a few key directio
   * e.g. `/another-directory/further-down`
   * when `cd`ing into subdirectories hitting <kbd>Tab</kbd> will autofill the directory name after typing at least one character
 
----
-
-# Basic Commands (Unix)
+## Basic Commands (Unix)
 
 * `pwd` ("print working dir") -- shows the name of the current directory
 * `ls` ("list") -- shows the contents of the current directory
@@ -49,9 +41,7 @@ The command line is very dependant on the file path. Here are a few key directio
 
 > These apply to Mac / Unix / Linux / bash
 
----
-
-# Basic Commands (DOS)
+## Basic Commands (DOS)
 
 * `cd` ("change dir") -- With no directory, it lists the current directory. Otherwise, it changes to the specified directory
 * `dir` ("directory") -- shows the contents of the current directory
@@ -59,9 +49,7 @@ The command line is very dependant on the file path. Here are a few key directio
 
 > These apply to Windows / DOS / PowerShell
 
----
-
-# Running Programs
+## Running Programs
 
 You can also run programs through the command line. To run a program through the command line, you type a preset keyword for the type of program you want to run, and then the name of the file you want to run.
 
@@ -71,9 +59,7 @@ You can also run programs through the command line. To run a program through the
 
 > In the cookie recipe metaphor, the *source file* is the **recipe** and *running the program* is **cooking**.
 
----
-
-# VS Code
+## VS Code
 
 * VS Code is a code editor that allows us to more easily write and edit programs
 * To open VSCode from the command line you can issue the command `code .`
@@ -82,9 +68,7 @@ You can also run programs through the command line. To run a program through the
   * You should always `cd` into the directory you want to be working in, then open VSCode from the command line
   * Don't open VSCode through the GUI!
 
----
-
-# JS in the CLI
+## JS in the CLI
 
 You can also write JavaScript directly in th command line. This is a great way for testing out code snippets, and operations!
 

@@ -1,16 +1,12 @@
-# Welcome to the Burlington Code Academy!
+# Introduction
 
----
-
-# What is code?
+## What is code?
 
 In general, code is something that stands for something else.
 
 In computers, code is a series of instructions that tell a computer what to do.
 
----
-
-# What is coding?
+## What is coding?
 
 * coding (aka programming or software development) is a *creative, human* activity
 * *coding* does not mean "cracking the code" or "deciphering" -- it's not a mystery or a secret, at least no more than any other language
@@ -19,9 +15,7 @@ In computers, code is a series of instructions that tell a computer what to do.
 
 > When you are writing code, you are not baking cookies, you are writing a recipe for how to make cookies.
 
----
-
-# Programmatic Thinking
+## Programmatic Thinking
 
 Throughout this course one of the most important skills you will learn is how to think like a programmer.
 
@@ -33,9 +27,7 @@ Computers are weird, and very literal. Here are a few things to keep in mind whe
 * Getting a different error is good. It means you're making progress so don't get discouraged!
 * Build things for fun, and to learn!
 
----
-
-# Languages
+## Languages
 
 * Every program is written in a LANGUAGE
   * like Java or Python or C or Fortran or Lisp or...
@@ -45,9 +37,7 @@ Computers are weird, and very literal. Here are a few things to keep in mind whe
 * Different languages are useful in different areas, but there is a lot of overlap
 * Over the next several months we will be learning JavaScript, HTML, and CSS
 
----
-
-# What will we learn?
+## What will we learn?
 
 In this class, you will learn about:
 
@@ -59,17 +49,13 @@ In this class, you will learn about:
 
 Follow along online! Put a browser pointed at this site on one side of your screen, and Terminal on the other.
 
----
-
-# What if I know some of this already?
+## What if I know some of this already?
 
 * Pair up
 * Help your partner, help your neighbor
 * Promote yourself to TA
 
----
-
-# Errors Are Awesome
+## Errors Are Awesome
 
 * Don't be afraid of errors
 * Your computer is trying to help you fix your program
@@ -83,36 +69,8 @@ Follow along online! Put a browser pointed at this site on one side of your scre
 * Try to read it -- really try! -- and pull out the pearls from the pig slop
 
 There are two types of programming errors:
+
 * *Logic Errors* - most logic errors still allow the program to run, but result in unexpected output
 * *Syntax Errors* - there is an error in how the code is structured
 
 See also: [What went wrong?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong) from MDN
-
----
-
-![Breakdown of error message](https://res.cloudinary.com/btvca/image/upload/v1622657526/curriculum/error-message-breakdown_jpmlv0.png)
-
----
-
-# Technical Requirements
-
-See the [Installfest](/projects/installfest) project for more instructions.
-
-Software
-
-- a text editor - VS Code from Microsoft <https://code.visualstudio.com>
-- JavaScript - a live node.js installation
-- Git - version 2.x
-- GitHub 
-  - **Sign up** for an account at <https://github.com/>
-
----
-
-# Technical Requirements cont.
-
-- Heroku
-  - **Sign up** for an account at <https://signup.heroku.com>
-  - **Install** the Heroku Command Line Interface (CLI) at <https://devcenter.heroku.com/articles/heroku-cli>
-
-- Please stop right now and check
-  - If you do not have these, let us know!

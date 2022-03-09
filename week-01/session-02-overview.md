@@ -1,15 +1,24 @@
 # Session-02
 
-Today we practiced writing source code files in VS Code and running them in the CLI. We reviewed types of values in JavaScript.
+Today covered:
+
+- Writing source code files in VS Code
+- Running them in the CLI
+- Reviewed types of values in JavaScript
 
 ## Reading & Homework
 
-Read [Chapter 2 of Eloquent Javascript](https://eloquentjavascript.net/02_program_structure.html)
+Continue reading the following chapters in the open source book, Eloquent JavaScript by Marijn Haverbeke.
 
-Try these exercises:
+- [JavaScript Values Ch.1 - EloquentJavaScript](https://eloquentjavascript.net/01_values.html)
+- [Program Structure Ch.2 - Eloquent Javascript](https://eloquentjavascript.net/02_program_structure.html)
+
+Attempt the following exercises:
 
 - [Looping A Triangle](https://eloquentjavascript.net/02_program_structure.html#i_umoXp9u0e7)
 - [FizzBuzz](https://eloquentjavascript.net/02_program_structure.html#i_rebKE3gdjV)
 - [Chessboard](https://eloquentjavascript.net/02_program_structure.html#i_swb9JBtSQQ)
 
-Continue working through the **Intro to JS prep-work**.
+Continue working through the **Intro to JavaScript pre-work**
+
+- <https://online.uprighted.com/>
