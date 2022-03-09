@@ -25,16 +25,6 @@ CLI is the Command Line Interface. The Command Line allows you to talk directly 
 GUI (pronounced: "Goo-ey") is the Graphic User Interface. It is less powerful than the CLI
 
 
-# Node environment
-
-Node is a command line program that is launched from the shell. Its prompt is usually `>`
-
-In order to leave the node environment, you need to `ctrl c` twice. To get back into node environment, you simply need to type `node` from the shell.
-
-Node is a JavaScript engine (it's a core software engine) that drives your program
-
-
-
 # Moving Around
 
 When moving around on the terminal you use the `cd` command with the *relative path* to your desired destination.
@@ -58,6 +48,13 @@ In the terminal you are always *inside* a directory. When traveling through mult
 If you're on MacOS you can use the command `pwd` to see where you are
 
 If you're on a Windows machine your prompt in the command line will include the *full file path to your current location*. If you're using cmder you can also use the `pwd` command to print the full file path to your current location in the terminal.
+
+The command `ls` will provide a list of all of the contents contained within the current directory you are in.
+
+On Mac: To open finder via the CLI, use the command `open .`
+On Windows: To open explorer via the CLI, use the command `start .`
+
+`.` means *this location that I am in right now*
 
 ## Creating Things
 
