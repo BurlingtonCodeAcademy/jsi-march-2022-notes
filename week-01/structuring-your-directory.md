@@ -1,12 +1,10 @@
 # Using the Command Line
 
-## Welcome!
-
-The purpose of this lab is to help you get little more comfortable interacting with your computer through the command line. The command line (a.k.a. shell, terminal, etc.) will be our primary way of interacting with our programs throughout this course so it's important we get comfortable using it.
+## Introduction
 
 In this lab you will set up the basic directory structure you will use to keep your code organized throughout this class, and you will write, and run a JavaScript program on your local machine.
 
-Go ahead and open your terminal now. On a Mac it will be an application called "terminal." On a PC, if you followed the installfest instructions, you should have an application called "cmder" as your terminal. If you are having any issues with the terminal let your teacher know, I can help! 
+Open your terminal now. On a Mac it will be an application called "terminal." On a Windows PC, you should have an application called "GitBash" as your terminal.
 
 ## Where Am I?
 
@@ -35,11 +33,13 @@ You can also go directly to the home directory from any location by typing `cd ~
 
 ## Creating New Folders
 
-Let's go back to our home directory (if you aren't already there) and set up a new directory for the code we'll write during this course. You can use the `mkdir` command followed by the name of the directory you want to create.
+Let's go back to our home directory and set up a new directory for the code we'll write during this course.
 
-Let's use the command `mkdir code` to make a new directory named "code"
+You can use the `mkdir` command followed by the name of the directory you want to create.
 
-Note that creating a new directory **does not** move you into it, it just creates it.
+Use the command `mkdir code` to make a new directory named "code"
+
+Note that creating a new directory **does not** move you into it, it only creates it.
 
 ## Creating a File
 
@@ -49,18 +49,18 @@ You can create new files by using the `touch` command followed by the name of th
 
 Make sure you're in the "code" directory, then create a file called `hello.js` using the command `touch hello.js`
 
-## Opening VSCode
+## Opening VS Code
 
 When we're working with programs in the command line it's very important to make sure we are opening things from the proper directory, and we are running files from the correct location otherwise we will get errors because the computer can't find the file you're trying to run in the location you told it to run from.
 
 To make your life easier you should **always** open VSCode from the terminal. You can do so by issuing the command `code .`
 
-  - `code` is the command to open VSCode
-  - `.` means "from this location I'm currently in
+- `code` is the command to open VSCode
+- `.` means "from this location I'm currently in
 
-If you run into any issues with the `code` command reach out to your instructor, or one of the TAs, it's what we're here for!
+If you run into any issues with the `code` command reach out to your instructor, or one of the assistant instructors.
 
-When you open VSCode from inside your "code" directory you should see a single empty JavaScript file named "hello.js"
+When you open VS Code from inside your "code" directory you should see a single empty JavaScript file named "hello.js"
 
 ## Your First Program
 
@@ -72,10 +72,12 @@ console.log("Hello, world!")
 
 ## Running a File
 
-Since "hello.js" is a JavaScript file we want to run it in a NodeJS environment. We can do so by using the command `node hello.js` in the terminal. Please note that this will only work if you are **inside** your "code" directory, where that file lives. Otherwise your computer won't be able to find the file!
+Since "hello.js" is a JavaScript file we want to run it in a NodeJS environment. We can do so by using the command `node hello.js` in the terminal.
+
+Note that this will only work if you are **inside** your "code" directory, where that file lives.
 
 When it runs successfully your program should print "Hello, world!" to the console.
 
 You can also use the `node` command without a file to enter a node environment in your terminal. This will allow you to write JavaScript directly in your terminal, and is a great way to try out some of the simple code snippets you might come across in our slide decks.
 
-Congratulations! You're a programmer now!
+Congratulations, you're a programmer now.

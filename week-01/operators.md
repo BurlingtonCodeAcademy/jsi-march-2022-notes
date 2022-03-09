@@ -1,70 +1,64 @@
 
 # Operators
 
-Values can be combined or manipulated using **operators**, like...
- 
- * PLUS (`+`)
- * TIMES (`*`)
- * POWER (`**`)
- * DOT (`.`)
- * ASSIGNMENT (`=`)
- * COMPARISON (`===`)
+Values can be combined using **operators**, such as:
+
+* PLUS (`+`)
+* TIMES (`*`)
+* POWER (`**`)
+* DOT (`.`)
+* ASSIGNMENT (`=`)
+* COMPARISON (`===`)
 
 An operator *sends a message* to the value
 
-  * e.g. `1 + 2` sends the number `1` the message `please add 2 to yourself`.
+* e.g. `1 + 2` sends the number `1` the message `please add 2 to yourself`.
 
-Dot is a special operator that *sends arbitrary messages*; we will learn more about that later.
+The Dot `.` is a special operator that *sends arbitrary messages*; we will learn more about that later.
 
----
-
-# Types of Operators
+## Types of Operators
 
 Like data there are several different *types* of operators
 
-- Assignment
-- Comparison
-- Arithmetic
-- Logical
-- Conditional
-- and some [less frequently used ones](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
+* Assignment
+* Comparison
+* Arithmetic
+* Logical
+* Conditional
+* [And many more exist too](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
 
----
-
-# Comments
+## Comments
 
 When reading JavaScript code, if you ever see two slashes in a row, that means "everything after these slashes is a comment".
 
-```javascript
-2 + 2    // makes four
+```js
+// this is a comment
+
+2 + 2 // results in four
 ```
 
 A comment is a message for humans. JavaScript ignores everything to the right of the slashes, so you can explain what the nearby code does, or why it does it.
 
 In these lessons, we often use comments to explain the *result* of executing the nearby code. In this case, we sometimes add an arrow to the comment:  
 
-```javascript
-2 + 2  //=> 4
-3 + 5 // -> 8
+```js
+2 + 2  // => 4
+3 + 5  // => 8
 ```
 
----
-
-# Multi Line Comments
+## Multi Line Comments
 
 JavaScript also has multi-line comments via `/* ... */` but those are less common. They can also be used to comment out a section within a line:  
 
-```javascript
+```js
 /* This is
  * a multiline
  * comment! */
 
- console.log(x /*some variable from earlier*/);
- ```
+console.log(x /*some variable from earlier*/);
+```
 
- ---
-
-# Expression Evaluation
+## Expression Evaluation
 
 A snippet of JavaScript code is called an *expression*.
 
@@ -78,11 +72,9 @@ When an expression is evaluated, it gives you back a value. The act of giving ba
 
 > You can think of evaluation as *asking and answering* a question.
 
----
+## Expression Examples
 
-# Expression Examples
-
-```javascript
+```js
 2 + 2    // Question: What is 2 + 2?
 4        // Answer: 4
 
@@ -95,9 +87,11 @@ When an expression is evaluated, it gives you back a value. The act of giving ba
 We say that a statement **evaluates to** a value, as in
 "2 plus 2 *evaluates to* 4". You can also say "the value of 2 + 2 is 4" or "the return value of 2 + 2 is 4".
 
----
+## Return Values
 
-# Return Values
+When code expressions are run (evaluated), they result in a new value.
+
+This value is called a `return` value.
 
 Sometimes the return value is the same as the original value.
 
@@ -117,9 +111,7 @@ Sometimes the return value is a different value *and* a different type.
 "banana".length  // return value: 6
 ```
 
----
-
-# Special Values
+## Special Values
 
 Sometimes the return value is a special value!
 
@@ -129,9 +121,7 @@ Sometimes the return value is a special value!
 "cookie" * 10  // return value: NaN
 ```
 
----
-
-# Expressions vs. Statements
+## Expressions vs. Statements
 
 JavaScript (like most languages derived from C) makes a distinction between *expressions* and *statements*.
 
@@ -147,36 +137,30 @@ JavaScript (like most languages derived from C) makes a distinction between *exp
 console.log("hello")
 ```
 
----
-
-# Values
+## Values
 
 Some statements have values, so `node` will *evaluate* them and *print* those values...
 
-```javascript
+```js
 1 + 1
 // evaluates to 2
 ```
 
 ...but *some statements have no value* (even though they contain expressions that *do* have value), and this can cause some surprising effects, e.g.:
 
-```javascript
+```js
 x = 10
 // evaluates to 10
 let x = 20
 // evaluates to undefined
 ```
 
----
+# Expression vs Statements
 
-# Expression vs Statement Breakdown
+|             Expression   | Statement                    |
+|--------------------------|------------------------------|
+| has a value              | does something               |
+| can be assigned to a var | has a semicolon (optionally) |
+|                          | contains expressions         |
 
-|Expression | Statement |
-|---|---|
-|has a value	| does something |
-|can be assigned to a var|	has a semicolon (optionally) |
-|		|		contains expressions |
-
-
-
-Read more here: (https://medium.com/launch-school/javascript-expressions-and-statements-4d32ac9c0e74)
+[Expressions vs. Statements - 2ality.com](https://2ality.com/2012/09/expressions-vs-statements.html)
