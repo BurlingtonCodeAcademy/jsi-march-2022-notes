@@ -8,6 +8,8 @@ Open up your terminal and follow along. Let's play with some data!
 - There are many kinds of values, including String, Number, Array, Dates
 - Different flavors of data are referred to as different *Types*
 
+Can take a `value` (data) and assign it a `variable` in order to manipulate that `value`.
+
 ## Primitive Data Types
 
 - Numbers
@@ -152,3 +154,8 @@ if (true) {
   - What about the number `0`?
 - What if we replace the boolean `true` with the expression `1 < 2`?
   - What happens if you switch the operator like so `1 > 2`?
+
+
+## The declaration keyword`let` 
+
+The `let` keyword is used to initially declare a variable. If/when you *redeclare* that variable, you will omit the `let` keyword.
