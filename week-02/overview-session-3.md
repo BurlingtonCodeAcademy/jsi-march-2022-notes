@@ -1,6 +1,6 @@
 # Session-03
 
-Today we reviewed some Eloquent JavaScript programs using loops. We went into more depth on operators and strings, and explored a number of string methods.
+Today we reviewed some Eloquent JavaScript programs using loops. We discussed the importance of commenting our code and went into more depth on operators.
 
 ## Reading & Homework
 
