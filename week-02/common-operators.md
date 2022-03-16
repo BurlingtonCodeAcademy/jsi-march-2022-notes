@@ -209,6 +209,8 @@ Open a terminal and start `node`, or create a new JavaScript file.
   - Add a value to `string` using `+=`, what is the value of `string`?
   - What is the value of `string` if you use `-=` instead?
 
+Note that `const` is a constant variable that must stay the same; it can’t be changed.
+
 ## The Ternary Operator
 
 The **ternary** operator is the only **trinary** operator in JavaScript
@@ -227,3 +229,7 @@ return isAllowed ? 'You are allowed' : 'You are denied';
 ```
 
 [More on the Ternary Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+
+What is `console.log()`? 
+- It is a method that takes something (whatever is within the parenthesis) and prints it to the console.
+- [More on the `console.log()` method](https://developer.mozilla.org/en-US/docs/Web/API/console/log)
