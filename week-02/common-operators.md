@@ -38,6 +38,8 @@ The `+` operator can be used on a single value to convert that value into a numb
 
 `typeof` is a unary operator that returns the **type** of the operand
 
+As we discussed in class, the `typeof` operator is a super helpful debugging tool. `typeof` helps us quickly and easily understand what kind of data type we are working with.
+
 ```js
 typeof function() {...}   // => 'function'
 typeof "Hello, world!"    // => 'string'
@@ -116,7 +118,7 @@ Evaluate two expressions and return a boolean
 
 ```js
 'dog' && 'cat'     // => 'cat'
-null && 'cat'      // => false
+null && 'cat'      // => null
 'dog' || 'cat'     // => 'dog'
 undefined || 'cat' // => 'cat'
 !true              // => false
@@ -223,3 +225,5 @@ let isAllowed = true;
 return isAllowed ? 'You are allowed' : 'You are denied';
 // => 'You are allowed'
 ```
+
+[More on the Ternary Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
