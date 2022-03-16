@@ -12,8 +12,8 @@ Today covered:
 
 The text editor we will be using in this course is Visual Studio Code (VS Code)
 
-How to setup Save/Auto Save in VS Code: 
-https://code.visualstudio.com/docs/editor/codebasics#:~:text=By%20default%2C%20VS%20Code%20requires,when%20focus%20leaves%20the%20editor
+[How to setup Save/Auto Save in VS Code](https://code.visualstudio.com/docs/editor/codebasics#:~:text=By%20default%2C%20VS%20Code%20requires,when%20focus%20leaves%20the%20editor).
+
 
 GJ recommends `onFocusChange` as an auto save preference
 
