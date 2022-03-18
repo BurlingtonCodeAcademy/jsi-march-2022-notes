@@ -1,12 +1,21 @@
 # Session-04
 
-Today we covered the type *numbers* in detail. Then we dove into variables and how we can name values in our programs. Finally, we started writing our first functions!
+Today we covered the type *strings* and *numbers* in detail! 
+
+[Read more about strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 
 ## Reading & Homework
 
-Continue to work on reading [Chapter 3 of Eloquent Javascript](https://eloquentjavascript.net/03_functions.html).
+- Continue to work on reading [Chapter 3 of Eloquent Javascript](https://eloquentjavascript.net/03_functions.html).
 
-Continue working through the **Intro to JS prep-work**.
+- Replit Challenges
+    - [add-one](https://replit.com/@Upright-JSI-Mar-2022/add-one#index.js)
+    - [minimum](https://replit.com/@Upright-JSI-Mar-2022/minimum#index.js)
+    - [isEven](https://replit.com/@Upright-JSI-Mar-2022/isEven#index.js)
+    - [countBees](https://replit.com/@Upright-JSI-Mar-2022/countBees#index.js)
+    - [countChar](https://replit.com/@Upright-JSI-Mar-2022/countChar)
+
+- Continue working through the **Intro to JS prep-work**.
 
 ## Practice
 

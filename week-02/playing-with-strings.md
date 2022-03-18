@@ -35,7 +35,19 @@ There are many methods attached to all strings. Try the following in a Node envi
 "berry".charAt(0)
 "banana".includes("nan")
 "banana".endsWith("ana")
-"blueberry".replace("blue", "black")
+"blueberry".replace("blue", "black") //will replace the FIRST instance of the word you're trying to change 
+"blueberry".replaceAll("blue", "black") //will replace ALL instances of the word you're trying to change
+```
+
+## Example Code (this is just one solution [not the only solution])
+
+```js
+// Assign the string to a variable
+let string = "this is a fantastic string" 
+// Method chaining allows us to make the string upper case and replace each empty string with a newline at the same time
+string = string.toUpperCase().replaceAll(" ", "\n") 
+// Print string to the console
+console.log(string)
 ```
 
 ## Flavors of Quotes
@@ -66,3 +78,27 @@ If you use backticks as your quotations you have created a template string. One 
 ```
 
 The above string would print out "Two plus two is 4"
+
+## Characters
+
+A string is composed of a sequence of characters.
+A character is a Number, or _character code_, that stands for a symbol.
+
+ASCII: American Standard Code for Information Interchange was invented in 1963
+[Check out the ASCII Table](https://commons.wikimedia.org/wiki/File:ASCII-Table-wide.svg)
+
+ASCII only goes from 0 to 127 which just isn't representative of all the characters that exist in the world!
+
+Good thing there is Unicode, which currently has more than 130,000 characters, including symbols.
+Note that ASCII and Unicode share the same first 0 to 127 characters; Unicode expands beyond after the 127th.
+
+## Comparing Strings
+
+Strings are compared one character at a time using the Unicode values of each character.
+
+```js
+'apple' > 'cherry' // The character code for 'a' is lower than the character code for 'c' so this comparison will return the boolean value false
+false
+'banana' < 'cherry'
+true
+```

@@ -4,6 +4,11 @@
 
 Numbers are one of the 6 JavaScript primitive types, and are very useful in programming. In general computers understand, and deal with numbers much more cleanly than the do words because to a computer *everything* is represented as numbers.
 
+[Read more about Numbers on MDN](https://developer.mozilla.org/en-US/docs/Glossary/Number)
+
+In JavaScript, the Number type cannot safely represent integer values larger than 2**53.
+If you have to work with really, really big numbers you need to keep this limitation in mind. The greater dev community is a great source for exploring possible workarounds!
+
 Open your terminal, and enter a Node environment with the `node` command
 
 ## Watch Out for the Holes
@@ -33,11 +38,40 @@ Go ahead and try and use each of these in an operation.
 - Can we build more complex operations using multiple operators?
 - Does JavaScript follow order of operations (PEMDAS)?
 
+## Order of Operations
+
+Parenthesis are explicit. When in doubt, use parentheses to make operation order explicit. Alternatively, break the expression up, and use variables.
+
+```js
+4 + 5 * 6 ** 2 / 4
+(((4 + 5) * 6) ** 2) / 4
+```
+
+## Strings vs. Numbers
+
+Sometimes Strings and Numbers combine in ways that are unexpected.
+
+```js
+1 + 2 //=> 3
+"1" + "2" //=> '12'
+"1 + 2" //=> '1 + 2'
+"1" + 5 //=> '15'
+```
+
+## Type Conversion
+
+Instead of depending on implicit coercion, you can explicitly convert a Number to a String, or vice-versa. see below for example:
+
+```js
+(12).toString() // '12'
+```
+
 ## Integers and Decimals
 
 JavaScript makes no distinctions between integers, and decimals.
 
 Does anything odd happen when you mix decimals, and integers in a single operation?
+
 
 ## The Math Class
 
