@@ -4,10 +4,9 @@ Tonight we learned about Input and Output and scope.
 
 We started off the class by going over the Frenemy Lab. A couple **array methods** highlighted in the solutions discussed include:
 
-`.indexOf()`
-- (MDN: .indexOf())[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf]
-`.includes()`
-- (MDN: .includes())[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes]
+- `.indexOf()`
+
+- `.includes()`
 
 ## Input and Output
 
