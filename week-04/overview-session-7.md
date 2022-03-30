@@ -4,8 +4,10 @@ Tonight we learned about Input and Output and scope.
 
 We started off the class by going over the Frenemy Lab. A couple **array methods** highlighted in the solutions discussed include:
 
-- (`.indexOf()`)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf]
-- (`.includes()`)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes]
+`.indexOf()`
+- (MDN: .indexOf())[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf]
+`.includes()`
+- (MDN: .includes())[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes]
 
 ## Input and Output
 
@@ -42,13 +44,13 @@ function ask(questionText) {
 
 ## Async and Await
 
-A **PROMISE** is something that stands in for a finished result, while a task is still processing.
+A **PROMISE** is something that stands in for a finished result, while a task is still processing. 
 
 - [MDN: Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
 - [MDN: Using Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
 
-An example would be a **ticket** or **receipt** used to redeem an order from a food-truck.
+
 
 Promises can be **awaited**, within a function marked as **async**.
 
@@ -76,11 +78,11 @@ Homework challenges within Replit
 
 Note: The first four challenges are covered in class today, the last challenge is new.
 
-- [name](https://replit.com/team/Upright-JSI-Mar-2022/full-name-input-output)
-- [quest](https://replit.com/team/Upright-JSI-Mar-2022/quest-input-output)
-- [name length](https://replit.com/team/Upright-JSI-Mar-2022/name-length-input-output-1)
-- [length of each name](https://replit.com/team/Upright-JSI-Mar-2022/length-of-each-name-input-output)
-- [frenemy](https://replit.com/team/Upright-JSI-Mar-2022/hello-frenemy-input-output)
+- [Full Name](https://replit.com/team/Upright-JSI-Mar-2022/full-name-input-output)
+- [Quest](https://replit.com/team/Upright-JSI-Mar-2022/quest-input-output)
+- [Name Length](https://replit.com/team/Upright-JSI-Mar-2022/name-length-input-output-1)
+- [Length of Each Name](https://replit.com/team/Upright-JSI-Mar-2022/length-of-each-name-input-output)
+- [Frenemy](https://replit.com/team/Upright-JSI-Mar-2022/hello-frenemy-input-output)
 
 ### Labs
 
