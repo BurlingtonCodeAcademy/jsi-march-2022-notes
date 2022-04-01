@@ -2,22 +2,22 @@
 
 We started off class by reviewing and building upon our knowledge of **scope**. We spent the rest of class learning how to work with Git and GitHub, and finally, an introduction to your first project: "Guess The Number" (due on Thursday, 4/7)
 
-# Scope
+## Scope
 
 Remember: The **Scope** is a context, including all the variables accessible from a given code location. Inner scopes can see out, but outer scopes cannot see in.
 
-# Global Functions
+## Global Functions
 
 Unless nested within another function, or code-block, functions are global.
 
-# Nested Functions
+## Nested Functions
 
 You can call functions within other functions.
 You can also create functions within other functions.
 
 You can nest functions within functions within functions, just **Keep in mind** that the more nested your code is, the more _buggy_ your code can get.
 
-# Git
+## Git
 
 Git is a distributed version control tool used for tracking changes to files.
 Git tracks:
@@ -34,7 +34,7 @@ Git is powerful and is a vital tool for any...
 - sysadmin
 - QA (Quality Assurance) engineer
 
-# Repository & Initializing a Git Repository
+## Repository & Initializing a Git Repository
 
 A repository (or "repo") contains the version history of a collection of files. In git, a repo comprises all files and subdirectories inside a single "root" directory.
 
@@ -43,7 +43,7 @@ A repository (or "repo") contains the version history of a collection of files. 
 
 [Git Documentation](https://git-scm.com/docs/git)
 
-# Two-Step Process for Tracking Changes
+## Two-Step Process for Tracking Changes
 
 Git has a two-step process for tracking changes to files:
 
@@ -61,12 +61,13 @@ commit
 d8b95657eebea7083de1a4fb96ba7fb296637342
 ```
 
-# Publishing changes to GitHub
+## Publishing changes to GitHub
 
-`git push` => pushes committed changes to GitHub
-`git pull` => allows you to incorporate a change someone else has made
+- `git push` => pushes committed changes to GitHub
 
-# Summary 
+- `git pull` => allows you to incorporate a change someone else has made
+
+## Summary 
 
 - `git init` initializes a repo inside a directory
 - `git add .` stages all current local changes, including new files and edits inside existing files
