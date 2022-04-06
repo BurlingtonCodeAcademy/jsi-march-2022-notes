@@ -16,7 +16,9 @@ If you've already finished the "Guess The Number" project and want to take on an
 - Every "slot" in the array has an index
 - You can retrieve any item in an array by its INDEX
 - Square brackets after an array mean "get the N-th item in this array"
+
   - This method of accessing items is referred to as "square bracket notation" - The following code retrieves the fruit at index 1
+
   ```js
   let fruits = ["apple", "banana", "cherry"];
   fruits[1]; // => "banana"
@@ -30,13 +32,13 @@ let fruits = ["apple", "banana", "cherry"];
 
 ## Common Array Methods
 
-`.push()` // => Adds a value(s) to an `array`
-`.slice()` // => Extracts a section of the array and returns a new array. Can take up to two arguments
-`.includes()` // => Determines whether the array contains a value, returns a boolean value as appropriate
-`.reverse()` // => Reverses the order of the contents within an `array`
-`.join()` // => Turns an `array` into a `string`
-`.toString()` // => Another method to turn an `array` into a `string`
-`.split()` // => Turns a `string` into an `array
+- `.push()` // => Adds a value(s) to an `array`
+- `.slice()` // => Extracts a section of the array and returns a new array. Can take up to two arguments
+- `.includes()` // => Determines whether the array contains a value, returns a boolean value as appropriate
+- `.reverse()` // => Reverses the order of the contents within an `array`
+- `.join()` // => Turns an `array` into a `string`
+- `.toString()` // => Another method to turn an `array` into a `string`
+- `.split()` // => Turns a `string` into an `array
 
 [MDN: Array Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_methods)
 Note: You do NOT need to memorize these. just skim them and remember how to get back to this documentation page later.
@@ -78,7 +80,7 @@ The `[]` operator works for assignment as well.
 - [JavaScript.info Array Methods](https://javascript.info/array-methods)
 - [MDN JavaScript Guide - Indexed Collections](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections)
 
-## Objects
+## Software Models the World
 
 - Data Structures allow for programmers to make models of the world in code.
 - People naturally think of the world as made up of things.
@@ -87,6 +89,7 @@ The `[]` operator works for assignment as well.
 - JavaScript objects let you describe things in any way you can imagine.
 
 **Objects Contain Properties**
+
 Objects enable us to encapsulate a bunch of data.
 Here is an example of an object assigned to the variable **fido**:
 
@@ -106,10 +109,12 @@ let fido = {
 - `let fido = {...}` is an assignment, setting the variable fido to point to the object we just defined
 
 **Getting Object Properties**
+
 You can get the properties of an object using either _dots_ or _brackets_. Given the fido object declared in the example above:
 `console.log(fido.species)` and `console.log(fido["species"])` will return the same result
 
 **Dots vs Brackets**
+
 Dots are prettier than square brackets, but less versatile. Some keys simply cannot be represented using dot notation, and trying to use them causes syntax errors.
 
 The bracket [] syntax is less common but covers all uses (e.g., if the key contains spaces, or is a variable).
