@@ -33,7 +33,7 @@ let fruits = ["apple", "banana", "cherry"];
 ## Array Methods
 
 [MDN: Array Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_methods)
-Note: You do NOT need to memorize these. just skim them and remember how to get back to this documentation page later.
+__Note__: You do NOT need to memorize these. Just skim them and remember how to get back to this documentation page later.
 
 ## Arrays and Loops
 
