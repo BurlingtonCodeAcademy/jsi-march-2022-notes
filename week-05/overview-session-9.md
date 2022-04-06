@@ -2,6 +2,8 @@
 
 Tonight we discussed **Arrays** and **Objects** and **Iteration Methods** oh my!
 
+If you've already finished the "Guess The Number" project and want to take on an extra challenge, check out the Ice Box Challenges at the bottom of the notes doc.
+
 ## Arrays
 
 - An array is a container for values
