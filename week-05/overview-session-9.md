@@ -30,15 +30,7 @@ If you've already finished the "Guess The Number" project and want to take on an
 let fruits = ["apple", "banana", "cherry"];
 ```
 
-## Common Array Methods
-
-- `.push()` // => Adds a value(s) to an `array`
-- `.slice()` // => Extracts a section of the array and returns a new array. Can take up to two arguments
-- `.includes()` // => Determines whether the array contains a value, returns a boolean value as appropriate
-- `.reverse()` // => Reverses the order of the contents within an `array`
-- `.join()` // => Turns an `array` into a `string`
-- `.toString()` // => Another method to turn an `array` into a `string`
-- `.split()` // => Turns a `string` into an `array
+## Array Methods
 
 [MDN: Array Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_methods)
 Note: You do NOT need to memorize these. just skim them and remember how to get back to this documentation page later.
