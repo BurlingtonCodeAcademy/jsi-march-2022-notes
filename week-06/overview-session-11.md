@@ -82,16 +82,16 @@ currentDate(printDate);
 [MDN: Callback Function](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
 
 **The `forEach()` Method**
-`forEach` works a lot like `for..of`, but passes each value to a callback function as an argument, one after another.
+- `forEach` works a lot like `for..of`, but passes each value to a callback function as an argument, one after another.
 
 **The `find()` Method**
-`.find()` will find the first instance that matches the condition.
+- `.find()` will find the first instance that matches the condition.
 
 **The `filter()` Method**
-`.filter()` returns all matching values, in a _new array_.
+- `.filter()` returns all matching values, in a _new array_.
 
 **The `map()` Method**
-`.map()` returns a _new array_ whose elements correspond to the elements of the original array. See example below:
+- `.map()` returns a _new array_ whose elements correspond to the elements of the original array. See example below:
 
 ```js
 let names = ["Alice", "Bob", "Charlie", "Carol", "David"];
