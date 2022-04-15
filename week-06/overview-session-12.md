@@ -78,6 +78,4 @@ function enterState(newState) {
 - [Fibonacci-Stack](https://replit.com/@Upright-JSI-Mar-2022/fibonacci-stack#index.js)
 - [Traffic-Light](https://replit.com/@Upright-JSI-Mar-2022/traffic-light#index.js)
 
-## Practice
 
-### Labs
