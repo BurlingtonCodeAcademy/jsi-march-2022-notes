@@ -49,7 +49,4 @@ As you can see in the example above, all HTML tags are surrounded by angle brack
 The **Inspect** tool enables you to take a look under the hood of _any_ webpage and see how that page is structured with various HTML elements. The Inspector is a powerful tool that we will continue to explore.
 
 ## Reading & Homework
-
-## Practice
-
-### Labs
+* Map out the story for your Zorkington project! 
