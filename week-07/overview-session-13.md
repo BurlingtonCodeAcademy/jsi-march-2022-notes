@@ -43,10 +43,10 @@ Tonight we ...
 `! Enter`
 
 **HTML Elements (aka Tags)**
-As you can see in the example above, all HTML tags are surrounded by angle brackets. You can also see that every tag has what is known as a closing tag. It is mostly true that every HTML tag needs to have a closing tag.
+* As you can see in the example above, all HTML tags are surrounded by angle brackets. You can also see that every tag has what is known as a closing tag. It is mostly true that every HTML tag needs to have a closing tag.
 
 **Inspect Your Page**
-The **Inspect** tool enables you to take a look under the hood of _any_ webpage and see how that page is structured with various HTML elements. The Inspector is a powerful tool that we will continue to explore.
+* The **Inspect** tool enables you to take a look under the hood of _any_ webpage and see how that page is structured with various HTML elements. The Inspector is a powerful tool that we will continue to explore.
 
 ## Reading & Homework
 * Map out the story for your Zorkington project! 
