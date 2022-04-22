@@ -4,7 +4,7 @@ Tonight we learned more about **HTML** and **CSS**!
 
 ### HTML
 
-**Attributes**
+#### Attributes 
 Attributes further define HTML elements and their purpose. For example, an image tag may have the following attributes:
 
 ```js
@@ -17,7 +17,7 @@ Attributes further define HTML elements and their purpose. For example, an image
 - Others include `style` (for inline CSS), `title` (for hover-over tooltips), `href` (hyperlink reference)
 - Attribute names should always be lowercase
 
-**Tables**
+#### Tables
 
 - Tables are a way of structuring data into rows and columns.
 - Tables are comprised 4 elements:
@@ -26,11 +26,11 @@ Attributes further define HTML elements and their purpose. For example, an image
   - `<th>` => table height
   - `<td>` => table data
 
-**Lists**
+#### Lists
 
-- Two main types of HTML lists: ordered and unordered.
+- Two main types of HTML lists: **ordered** and **unordered**.
 
-- `<ul>` describes a unordered list. Each item in the list will be bulleted.
+- `<ul>` describes a **unordered list**. Each item in the list will be bulleted.
 
 ```js
 <ul>
@@ -40,7 +40,7 @@ Attributes further define HTML elements and their purpose. For example, an image
 </ul>
 ```
 
-- `<ol>` describes an ordered list. Each item in the list will be numbered (top to bottom)
+- `<ol>` describes an **ordered list**. Each item in the list will be numbered (top to bottom)
 
 ```js
 <ol>
@@ -50,7 +50,7 @@ Attributes further define HTML elements and their purpose. For example, an image
 </ol>
 ```
 
-**Comments are our friend in HTML!**
+#### Comments are our friend in HTML!
 
 - Commenting is important in any form of coding.
 - Comments help both you and others to better understand the intent of the code.
@@ -58,7 +58,7 @@ Attributes further define HTML elements and their purpose. For example, an image
 - Comments in HTML are not read by browsers. They use the following syntax:
 <!-- This is a comment! -->
 
-**Resources: Web Accessability**
+#### Resources: Web Accessability
 
 - [Quick wins for web accessibility](https://a11y.coffee/quick-wins/#2-missing-alt-text-for-images)
 - [Web Accessibility in Mind](https://webaim.org/techniques/alttext/)
@@ -70,13 +70,13 @@ Attributes further define HTML elements and their purpose. For example, an image
 - Responsible for determining how your HTML looks
 - CSS formats your webpage. Without it, there is only content, and no structure or styles.
 
-**Writing CSS**
+#### Writing CSS
 
 - _Can_ be written within HTML, but it's **best practice** to write CSS in an external style sheet
 
 - Creating external style sheets prevents you from having to write code multiple times, and makes it easy to modify.
 
-**Styling with CSS**
+#### Styling with CSS
 
 - Using CSS properties, you can modify the appearance of your HTML.
 - This can done by targeting HTML elements.
@@ -112,14 +112,14 @@ p {
 }
 ```
 
-**Adding styles to an HTML page**
+#### Adding styles to an HTML page
 Common use-cases to add style to an HTML page include:
 
 - `<h1 style="color: red; font-size: 32px;">` Inline
 - `<link>` Tag to a CSS file
 - `<style>` Tags with `@import` of a CSS file
 
-**Selectors and Properties**
+#### Selectors and Properties
 
 - CSS is constructed of selectors and properties.
 - Selectors determine where the styles are applied.
@@ -129,17 +129,17 @@ Common use-cases to add style to an HTML page include:
 
 ```css
 p {
-  color: white; // =>text color
-  background-color: navy; // => background color
-  text-align: center; // => justifies text
-  font-size: 24px; // => size of font
-  border: 5px grey solid; // => Defines border width, style, and color
+  color: white;  
+  background-color: navy; 
+  text-align: center; 
+  font-size: 24px;
+  border: 5px grey solid; 
 }
 ```
 
 ^ In the above example, `p` is the selector with the styles declared within the curly braces.
 
-**Compound Selectors - Example #1**
+#### Compound Selectors - Example #1
 Selectors can target elements nested within other elements:
 
 ```css
@@ -149,7 +149,7 @@ p img {
 }
 ```
 
-**Compound Selectors - Example #2**
+#### Compound Selectors - Example #2
 Selectors can target specific elements with a class:
 
 ```css
@@ -164,7 +164,7 @@ h1 .title {
 
 [CSS Tricks: The Difference between ID and Class](https://css-tricks.com/the-difference-between-id-and-class/#:~:text=ID's%20have%20special%20browser%20functionality,hash%20value%E2%80%9D%20in%20the%20URL.)
 
-**Compound Selectors - Example #3**
+#### Compound Selectors - Example #3
 Selectors can target specific elements with several layers of nesting
 
 ```css
@@ -174,9 +174,9 @@ main .introduction > p {
 }
 ```
 
-_The above example says:_ "apply these styles to all ps that are direct children of a div of class introduction inside the main section"
+_The above example says:_ "apply these styles to all `p`s that are direct children of a `div` of class `introduction` inside the `main` section"
 
-**Psuedo-Class Selectors**
+#### Psuedo-Class Selectors
 You can target the state of an element using psuedo-class selectors
 
 ```css
