@@ -8,7 +8,7 @@ Tonight we learned more about styling with CSS.
 
 There are two ways to link your CSS file to your HTML
 
-1. Linking them through the Link tag (See example below)
+1. Linking them through the Link tag (See example below):
 
 ```html
 <!DOCTYPE html>
@@ -24,7 +24,8 @@ There are two ways to link your CSS file to your HTML
 </html>
 ```
 
-2.  Using `@import` [MDN: @import](https://developer.mozilla.org/en-US/docs/Web/CSS/%40import) 
+2.  Using `@import` 
+- [MDN: @import](https://developer.mozilla.org/en-US/docs/Web/CSS/%40import) 
 - The example below assumes that the .css file is at the same level directory as your index.html file
 
 ```html
@@ -35,10 +36,10 @@ There are two ways to link your CSS file to your HTML
 
 #### The Element Box Model
 
-- Imagine every HTML element as a 'box'.
-- Every box consists of four different 'layers': Margin, Border, Padding, and Content.
-- Margins and padding help to position and align content inside an HTML element.
-- Padding and margins are transparent. Think of it as empty space.
+- Imagine every HTML element as a 'box'
+- Every box consists of four different 'layers': Margin, Border, Padding, and Content
+- Margins and padding help to position and align content inside an HTML element
+- Padding and margins are transparent. Think of it as empty space
 - Borders can be colored, or image-based. They can also be 'styled' (dashes, dots, etc.)
 
 [MDN: Introduction to the CSS basic box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
@@ -50,7 +51,7 @@ Using `!important` in a declaration **overrides all other declarations**
 #### Style Override Precedence
 
 The more specific selectors will override the less specific selectors.
-See below for the order of specificity (**Note: Ordered from most specific to less specific**):
+See below for the order of specificity (**Note: the list below orders the selectors from most specific to less specific**):
 
 1. !important
 2. Inline CSS
@@ -58,7 +59,7 @@ See below for the order of specificity (**Note: Ordered from most specific to le
 4. Class Selectors
 5. Element Selectors
 
-If your CSS is doing something unexpected, take a another look at your HTML and CSS to make sure you're using the hierarchy in the way you are intending.
+**If your CSS is doing something unexpected**, take a another look at your HTML and CSS to make sure you're using the hierarchy in the way you are intending.
 
 #### CSS Layout: Inline vs. Block Level Elements
 
@@ -112,13 +113,13 @@ Inherent display properties of commonly-used HTML elements:
 
 1. **Relative**: Elements are relative to the flow of the HTML document.
 
-- Elements moved around with the properties top, left, right, bottom. top:20px; will move a relatively positioned element 20 pixels from its natural postioning.
-- "my children are positioned relative to me"
+    - Elements moved around with the properties top, left, right, bottom. top:20px; will move a relatively positioned element 20 pixels from its natural postioning.
+    - "my children are positioned relative to me"
 
 2. **Absolute**: This is positioned relative to its parent or ancestor (closest ancestor that is relatively positioned).
 
-- Any element that is positioned absolutely, will be placed (using the top/left/right/bottom CSS properties) specifically within the parent, irrespective of other sibling elements.
-- "I am positioned relative to my parent"
+    - Any element that is positioned absolutely, will be placed (using the top/left/right/bottom CSS properties) specifically within the parent, irrespective of other sibling elements.
+    - "I am positioned relative to my parent"
 
 3. **Fixed**: Position an element is relation to its viewport (browser window).
 
@@ -197,7 +198,7 @@ Flexbox is a flexible tool that helps us create responsive and compelling layout
 }
 ```
 
-**Learn more flexbox properties here:**[CSS Tricks: A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+**Learn more flexbox properties here:** [CSS Tricks: A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ## Homework
 
@@ -212,7 +213,7 @@ Flexbox is a flexible tool that helps us create responsive and compelling layout
 - [Flexbox Froggy](https://flexboxfroggy.com/)
 - [CSS Diner](https://flukeout.github.io/)
 
-### More practice with flexbox
+### More practice with flexbox(if you have time)
 
 - [Codepen: Flexbox Display](https://codepen.io/burlingtoncodeacademy/pen/NWaqYmE)
 - [Codepen: Simple Flex Grid](https://codepen.io/burlingtoncodeacademy/pen/vYeOjdz)
