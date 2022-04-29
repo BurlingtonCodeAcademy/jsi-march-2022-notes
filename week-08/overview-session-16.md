@@ -8,6 +8,7 @@ Tonight we practiced our **CSS flexbox** and **CSS grid** skills in a code-along
 
 **Basic Grid Example**
 
+HTML:
 ```html
 <div class="wrapper">
   <div>One</div>
@@ -17,7 +18,7 @@ Tonight we practiced our **CSS flexbox** and **CSS grid** skills in a code-along
   <div>Five</div>
 </div>
 ```
-
+With corresponding CSS:
 ```css
 .wrapper {
   display: grid;
