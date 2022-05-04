@@ -37,17 +37,16 @@ Tonight we learned about the **DOM** and how we can manipulate the DOM with **DO
 
 #### Locating HTML Elements
 
-**the hard way**
+- **the hard way**
 
-- traverse the document tree using DOM Node methods
+  - traverse the document tree using DOM Node methods
 
-**the somewhat easier way**
+- **the somewhat easier way**
 
-- `document.getElementsByTagName('p')[0]`
+  - `document.getElementsByTagName('p')[0]`
 
-**the easy way**
-
-- `document.getElementById('article')`
+- **the easy way**
+  - `document.getElementById('article')`
 
 #### Adding HTML in a programmatic way with JavaScript
 
@@ -75,29 +74,28 @@ When a user does something (e.g. click on a button), it generates an _event_
 
 #### Many Event Types
 
-**Mouse**
+- **Mouse**
 
-- mousedown, mouseup, click
-- mouseover, dblclick
-- and many more. There are a ton of mouse events. A ridiculous number really.
+  - mousedown, mouseup, click
+  - mouseover, dblclick
+  - and many more. There are a ton of mouse events. A ridiculous number really.
 
-**Keyboard**
+- **Keyboard**
 
-- keydown, keypress, keyup
+  - keydown, keypress, keyup
 
-**Window**
+- **Window**
 
-- load, unload, beforeunload
-- ready (jQuery only)
-- abort, error
-- resize, scroll, contextmenu
+  - load, unload, beforeunload
+  - ready (jQuery only)
+  - abort, error
+  - resize, scroll, contextmenu
 
-**Form**
+- **Form**
 
-- focus, blur
-  - "blur" should probably have been "unfocus," but we're stuck with it now
-- change, select
-- submit, reset
+  - focus, blur
+  - change, select
+  - submit, reset
 
 #### DOM Scripting
 
@@ -107,7 +105,7 @@ When a user does something (e.g. click on a button), it generates an _event_
 
 #### Scripts as Attributes
 
-Below is the simplest, but certainly NOT the best
+Below is an example of the _simplest_, but certainly **NOT the best**
 
 ```js
 <button name="button" onclick="alert('here in the Dom')">
@@ -115,9 +113,9 @@ Below is the simplest, but certainly NOT the best
 </button>
 ```
 
-#### A Script Tag
+#### A Script Tag (without src)
 
-**Without a src attribute**, it defines a script and _immediately executes_ its code. Take a look at this example below.
+**Without a src attribute**, a script tag defines a script and _immediately executes_ its code. Take a look at this example below.
 
 ```js
 <script>let message = "Shazam!" alert(message)</script>
@@ -141,15 +139,13 @@ HINT: **to be sure that your code executes after the page has been fully loaded*
 
 - In a DOM script, **the current page is always available via the global variable named `document`.**
 
-- when we refer to `document` we are referring to the current page that you are on. For example:
+- When we refer to `document` we are referring to the current page that you are on. For example:
 
-`document.URL` /_ URL of the current page, as a string _/
+`document.URL` => URL of the current page, as a string
 
 **document** - (with lowercase d) global instance accessible anywhere. It's an object!
 
 **Document** - (with uppercase D) creates a brand new instance of the document
-
-**Two common ways to get an element by `id` or by a `CSS selector`**
 
 #### Finding an Element by ID
 
@@ -165,7 +161,7 @@ Once you have a pointer to that element, you can manipulate it further. You can 
 console.log(element);
 ```
 
-[MDN: document](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
+[MDN: Document.getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
 
 #### Finding an Element by CSS Selector
 
@@ -191,6 +187,12 @@ When you are targeting an element, use a variable name that's either the same or
 [MDN: Event Listeners](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 
 ## Reading & Homework
+
+- [click-counter](https://replit.com/@Upright-JSI-Mar-2022/click-counter)
+- [dom-manipulation](https://replit.com/@Upright-JSI-Mar-2022/dom-manipulation-practice#index.html)
+- [mission-countdown](https://replit.com/@Upright-JSI-Mar-2022/mission-countdown-timer#index.html)
+- [hello-frenemy](https://replit.com/@Upright-JSI-Mar-2022/hello-frenemy-www)
+- [Passing-data](https://replit.com/@Upright-JSI-Mar-2022/passing-data#index.html)
 
 ## Practice
 
