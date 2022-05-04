@@ -193,7 +193,3 @@ When you are targeting an element, use a variable name that's either the same or
 - [mission-countdown](https://replit.com/@Upright-JSI-Mar-2022/mission-countdown-timer#index.html)
 - [hello-frenemy](https://replit.com/@Upright-JSI-Mar-2022/hello-frenemy-www)
 - [Passing-data](https://replit.com/@Upright-JSI-Mar-2022/passing-data#index.html)
-
-## Practice
-
-### Labs
