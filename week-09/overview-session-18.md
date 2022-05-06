@@ -61,7 +61,7 @@ There are many different types. You can check them out here:
 **What is a CSS Selector?**
 
 - _A CSS Selector is the first part of a CSS rule._
-  [MDN: What is a selector](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors#what_is_a_selector)
+- [MDN: What is a selector](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors#what_is_a_selector)
 
 ```css
 h1 {
@@ -72,7 +72,7 @@ h3 {
 }
 ```
 
-## Homework (Due on May 18th)
+## Homework 
 
 - [click-counter](https://replit.com/@Upright-JSI-Mar-2022/click-counter#index.html)
 - [mission-countdown](https://replit.com/@Upright-JSI-Mar-2022/mission-countdown-timer#index.html)
