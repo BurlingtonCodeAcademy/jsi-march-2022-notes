@@ -5,6 +5,7 @@ Tonight we practiced **DOM scripting**
 #### Finding many elements
 
 In addition to getting a single element by its `id` or a CSS selector, you can also ask the document to give all elements that match a certain criterion.
+
 **by CSS Class name**:
 
 ```js
@@ -23,19 +24,18 @@ let elements = document.getElementsByTagName("h2");
 let elements = document.querySelectorAll("h2.preview > p");
 ```
 
-These return collection objects, so you must write more code to get the actual element objects, or to check the collection's length.
 
 #### Event Handler Functions
 
 In JavaScript, **event handlers** are **callback functions**.
-[MDN:EventTarget.addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+- [MDN:EventTarget.addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 
 #### Event Parameters
 
 **An event handler function can optionally accept a parameter**
 
 - This parameter is typically called `event` (or `evt` or even just `e`).
-  - This `event` parameter holds **[lots of information about the thing that just happened].**
+  - This `event` parameter holds **lots of information about the thing that just happened.**
 
 An event object has many properties but **the most important one is** `event.target`, which points to the element where the action took place.
 
@@ -46,14 +46,16 @@ For instance, for a click event, `event.target` contains a pointer to the elemen
 - Events are created by their elements
 - After creation they move up the chain by default
 - This behavior can be changed by using `event.stopPropagation()` in the listener
-- As Josh Burke mentioned in class, event bubbling can be a behavior that you want to enact for a particular reason, but often times you want want it to bubble. Knowing how to prevent a default behavior is super useful!
+- As Josh Burke mentioned in class, event bubbling can be a behavior that you want to enact for a particular reason, but often times you WON'T want it to bubble. Knowing how to prevent this default behavior is super useful!
 
 #### Event Listeners
 
 **Event Listeners** are a special type of function in JavaScript that **waits for a specified event**, and then **calls a callback function** after that event has been triggered.
 
 #### Different Types of Events
+
 There are many different types. You can check them out here:
+
 - [MDN: Event Listeners](https://developer.mozilla.org/en-US/docs/Web/Events)
 
 **What is a CSS Selector?**
