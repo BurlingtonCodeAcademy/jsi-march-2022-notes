@@ -1,6 +1,6 @@
 # Session-19
 
-Tonight we learned more about **Event Listeners** and we were introduced to the final project: [Pixel Art Grid Editor Project](https://classroom.github.com/assignment-invitations/4ecfcd12b0b45dceb081b0d51ead9f69) This is **due: Tuesday, 5/17 by 6pm**
+Tonight we learned more about **Event Listeners** and we were introduced to the final project: [Pixel Art Grid Editor Project](https://classroom.github.com/assignment-invitations/4ecfcd12b0b45dceb081b0d51ead9f69) (This is **due: Tuesday, 5/17 by 6pm**).
 
 ### Event Listeners
 
@@ -32,12 +32,12 @@ There are a couple ways to do this. See below for an example of one way that we 
 
 1. Head on over to [google fonts](https://fonts.google.com/) and select a font you like
 2. In the panel on the right side of the page, toggle to the **@import url** option
-3. Copy the code that lives within the `style` tag, that starts with **@import**. It should look like this:
+3. Copy the code that lives within the `style`. It starts with **@import** and should look like this:
 
 ```css
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Share+Tech+Mono&display=swap");
 ```
-4. Then, paste into top of your CSS file. (see example of the **@import** below):
+4. Then, paste that into top of your CSS file.
 
 4. Next, copy the **CSS rules to specify families** and paste them in the body tag of your CSS file (this will ensure that the font family extends to all of your text associated with that particular style sheet). Example below:
 
