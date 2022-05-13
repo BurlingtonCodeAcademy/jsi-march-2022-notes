@@ -4,11 +4,11 @@ Tonight we spent class asking and responding to questions! See the list of quest
 
 ## Questions:
 
-- **Question:** _Can I see the way how to do the Fibonacci stack in JavaScript?_
+**Question:** _Can I see the way how to do the Fibonacci stack in JavaScript?_
 
   - [Fibonacci stack solution example](https://replit.com/@dangeranger/fibonacci-examples#index.js)
 
-- **Question:** _I'm interested in learning Ruby on Rails. Is that something I could jump right into, or do I need a bit more experience first._
+**Question:** _I'm interested in learning Ruby on Rails. Is that something I could jump right into, or do I need a bit more experience first._
   - Before moving on to learning a whole other language, we recommend honing in on building out your JavaScript skills first.
   - Ruby on Rails is fun! It is also very big and there's a lot to learn.
   - You can certainly get up and running, but it takes some time to fully understand how it works.
