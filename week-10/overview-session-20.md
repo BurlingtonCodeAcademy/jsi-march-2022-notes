@@ -1,19 +1,20 @@
 # Session-20
 
-Tonight we spent class asking and responding to questions! See the list of questions below with responses below:
+Tonight we spent class asking and responding to questions! See the list of questions with responses, helpful resources, and zoom recordings below.
 
 ## Questions:
 
-- **Can I see the way how to do the Fibonacci stack in JavaScript?**
-  [Fibonacci stack solution example](https://replit.com/@dangeranger/fibonacci-examples#index.js)
+- **Question:** _Can I see the way how to do the Fibonacci stack in JavaScript?_
 
-- **I'm interested in learning Ruby on Rails. Is that something I could jump right into, or do I need a bit more experience first.**
+  - [Fibonacci stack solution example](https://replit.com/@dangeranger/fibonacci-examples#index.js)
+
+- **Question:** _I'm interested in learning Ruby on Rails. Is that something I could jump right into, or do I need a bit more experience first._
   - Before moving on to learning a whole other language, we recommend honing in on building out your JavaScript skills first.
   - Ruby on Rails is fun! It is also very big and there's a lot to learn.
   - You can certainly get up and running, but it takes some time to fully understand how it works.
   - There are a lot of open source materials for learning Ruby on Rails
 
-**If interested in web and app development, what would be the next step in taking classes**
+**Question:** _If interested in web and app development, what would be the next step in taking classes_
 
 Upcoming BCA/Upright Bootcamp opportunities:
 
@@ -29,14 +30,14 @@ Other education/community support resources to explore:
 
 - [C0D3](https://www.c0d3.com/)
 
-**What advice would you have for someone enrolled in the bootcamp? This could be content-specific, or more general like habits and strategies that will make things easier. Are there specific skills we should work on in preparation?**
+**Question:** _What advice would you have for someone enrolled in the bootcamp? This could be content-specific, or more general like habits and strategies that will make things easier. Are there specific skills we should work on in preparation?_
 
 - Trust the process, be patient with yourself, and believe that you can do it!
 - Take breaks...sometime you've just got to walk away from buggy code
 - Don't be afraid to ask all your questions, you deserve to get what you need in order to succeed!
 - Build relationships with fellow students and lean on your community for support
 
-**What are some ways to explore different career paths within software development?**
+**Question:** _What are some ways to explore different career paths within software development?_
 
 - Research job descriptions for different titles/roles and see what sounds compelling to you.
 
@@ -44,13 +45,14 @@ Other education/community support resources to explore:
 
 - Find a job that you are happy working, that enables you to pay the bills, and offers a supportive team that will help you foster your learning and growth!
 
-**If building websites for other people. They're going to want to be able to update the site on their own. Does that essentially mean using content management systems. What systems do you recommend?**
-Yes. Remember that you will be working with your client and getting them set up to use it themselves. There are different CMS options to meet different needs. See a couple below:
+**Question:** _If building websites for other people. They're going to want to be able to update the site on their own. Does that essentially mean using content management systems. What systems do you recommend?_
 
-- WordPress (WP is a massive system and have to know PHP)
-- Squarespace (low code with options to customize)
+- Yes. Remember that you will be working with your client and getting them set up to use it themselves. There are different CMS options to meet different needs. See a couple below:
 
-**If you could give your early coder self advice, what would it be?**
+  - WordPress (WP is a massive system and have to know PHP)
+  - Squarespace (low code with options to customize)
+
+**Question:** _If you could give your early coder self advice, what would it be?_
 
 - Take more chances; be brave!
 - Take more notes
@@ -62,9 +64,9 @@ Yes. Remember that you will be working with your client and getting them set up 
 
 **Here are some additional resources to learn more about**:
 
-[Express JS](http://expressjs.com/en/starter/installing.html)
-[React JS](https://beta.reactjs.org/learn)
-[Next JS](https://nextjs.org/learn/foundations/about-nextjs)
+- [Express JS](http://expressjs.com/en/starter/installing.html)
+- [React JS](https://beta.reactjs.org/learn)
+- [Next JS](https://nextjs.org/learn/foundations/about-nextjs)
 
 **Where To go From here??**
 
@@ -153,3 +155,4 @@ Yes. Remember that you will be working with your client and getting them set up 
 - [May 12, 2022]()
 
 ## Reading & Homework
+- [Pixel Art Grid Editor Project](https://classroom.github.com/assignment-invitations/4ecfcd12b0b45dceb081b0d51ead9f69) This is **due: Tuesday, 5/17 by 6pm**
